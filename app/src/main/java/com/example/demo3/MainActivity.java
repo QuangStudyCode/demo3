@@ -36,7 +36,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View view) {
         switch (view.getId()){
             case R.id.button:
-                Toast.makeText(MainActivity.this,"Ok Ne",Toast.LENGTH_LONG).show();
+                Toast.makeText(MainActivity.this,"Ok Ne 2",Toast.LENGTH_LONG).show();
+                textView.setText("okokokok");
                 break;
         }
     }
